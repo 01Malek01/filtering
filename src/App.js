@@ -68,12 +68,6 @@ const handleButtonsChange =(e) => {
     <Nav query={query} handleInputChange = {handleInputChange} />
     <Recommended handleButtonsChange={handleButtonsChange} />
     <Products result={result} />
-    <hr></hr>
-    <p style={{
-      textAlign:'center',
-      paddingTop:'1rem',
-      paddingBottom:'1rem'
-    }}>Made with ❤️ by Malek Mostafa & YT tutorial.</p>
     </>
   );
 }
